@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Whale hello plugin",
+    "description": "Verifies the whale plugin monorepo build and installation pipeline."
+  }
+}

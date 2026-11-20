@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPT-SoVITS voice",
+    "description": "Generate speech with a local GPT-SoVITS model, play it or save it to a chosen folder."
+  }
+}

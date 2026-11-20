@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPT-SoVITS 语音",
+    "description": "用本地 GPT-SoVITS 模型生成语音，可选择播放或保存到指定目录。"
+  }
+}

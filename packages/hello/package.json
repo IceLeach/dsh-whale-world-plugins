@@ -1,0 +1,29 @@
+{
+  "name": "dsh-whale-hello",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "示例插件：验证 monorepo、构建与 DSH 安装链路。",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
+  "files": ["lib", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "node -e \"require('fs').rmSync('lib',{recursive:true,force:true})\""
+  },
+  "dependencies": {
+    "dsh-whale-core": "workspace:*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

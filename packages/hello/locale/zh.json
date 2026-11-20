@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "示例插件",
+    "description": "验证 DSH 插件的 monorepo 构建与安装链路。"
+  }
+}
