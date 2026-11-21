@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Score renderer",
+    "description": "Render MusicXML to WAV audio with MuseScore."
+  }
+}

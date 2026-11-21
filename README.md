@@ -13,7 +13,8 @@ plugins/
 ├── packages/
 │   ├── core/      共享工具与类型（不单独安装）
 │   ├── hello/     TypeScript 示例插件：验证构建与安装链路
-│   └── tts/       GPT-SoVITS 语音插件（纯 JS，无构建）
+│   ├── tts/       GPT-SoVITS 语音插件（纯 JS，无构建）
+│   └── music/     MusicXML → wav 乐谱渲染插件（纯 JS）
 ├── docs/
 │   └── architecture.md
 ├── pnpm-workspace.yaml

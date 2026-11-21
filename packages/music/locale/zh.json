@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "乐谱渲染",
+    "description": "把 MusicXML 渲染成 wav 音频（MuseScore）。"
+  }
+}
